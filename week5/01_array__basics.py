@@ -1,0 +1,17 @@
+import numpy as np
+
+marks = np.array([78, 85, 91, 66, 88])
+matrix = np.arange(12).reshape(3, 4)
+images = np.zeros((2, 4, 4))
+identity = np.eye(4)
+values = np.linspace(0, 1, 10)
+print("Marks:", marks)
+print("Matrix:\n", matrix)
+print("Marks shape:", marks.shape)
+print("Matrix shape:", matrix.shape)
+print("Marks dimensions:", marks.ndim)
+print("Matrix dimensions:", matrix.ndim)
+print("Marks size:", marks.size)
+print("Matrix size:", matrix.size)
+print("Marks data type:", marks.dtype)
+print("Matrix data type:", matrix.dtype)
